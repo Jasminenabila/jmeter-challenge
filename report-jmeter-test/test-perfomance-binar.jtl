@@ -1,0 +1,23 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664818277887,1512,Login Request,201,Created,1 User - 10 Seconds - 1 Loop 1-1,text,true,,527,271,1,1,https://market-final-project.herokuapp.com/auth/login,1509,0,1120
+1664818279868,1223,Add Seller Product,201,Created,1 User - 10 Seconds - 1 Loop 1-1,text,true,,691,187925,1,1,https://market-final-project.herokuapp.com/seller/product,1223,0,0
+1664818281091,299,Get Seller Request,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,1204,349,1,1,https://market-final-project.herokuapp.com/seller/product,299,0,0
+1664818281428,283,Get Seller Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,742,355,1,1,https://market-final-project.herokuapp.com/seller/product/23122,283,0,0
+1664818281711,363,Delete Seller Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,322,377,1,1,https://market-final-project.herokuapp.com/seller/product/23122,363,0,0
+1664818282799,1273,Login Request,201,Created,1 User - 10 Seconds - 1 Loop 1-2,text,true,,527,271,2,2,https://market-final-project.herokuapp.com/auth/login,1272,0,901
+1664818284073,1167,Add Seller Product,201,Created,1 User - 10 Seconds - 1 Loop 1-2,text,true,,690,187908,2,2,https://market-final-project.herokuapp.com/seller/product,1167,0,0
+1664818285241,340,Get Seller Request,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,1203,349,2,2,https://market-final-project.herokuapp.com/seller/product,340,0,0
+1664818282075,3538,Get Buyer Product Request,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,4987018,348,2,2,https://market-final-project.herokuapp.com/buyer/product,1139,0,0
+1664818285583,327,Get Seller Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,741,355,2,2,https://market-final-project.herokuapp.com/seller/product/23123,327,0,0
+1664818285703,277,Post Buyer Order Request,400,Bad Request,1 User - 10 Seconds - 1 Loop 1-1,text,false,,345,412,2,2,https://market-final-project.herokuapp.com/buyer/order,277,0,0
+1664818285911,392,Delete Seller Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,322,377,2,2,https://market-final-project.herokuapp.com/seller/product/23123,392,0,0
+1664818286006,298,Get Buyer Product Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,843,351,2,2,https://market-final-project.herokuapp.com/buyer/product/45,297,0,0
+1664818286304,287,Get Buyer Order Request,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,6151,346,2,2,https://market-final-project.herokuapp.com/buyer/order,287,0,0
+1664818286607,846,Get Buyer Order Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,1155,352,2,2,https://market-final-project.herokuapp.com/buyer/order/10985,846,0,0
+1664818287453,300,Put Buyer Order Request,200,OK,1 User - 10 Seconds - 1 Loop 1-1,text,true,,662,398,2,2,https://market-final-project.herokuapp.com/buyer/order/10985,300,0,0
+1664818286304,5580,Get Buyer Product Request,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,4987018,348,1,1,https://market-final-project.herokuapp.com/buyer/product,1107,0,0
+1664818291939,379,Post Buyer Order Request,400,Bad Request,1 User - 10 Seconds - 1 Loop 1-2,text,false,,345,412,1,1,https://market-final-project.herokuapp.com/buyer/order,379,0,0
+1664818292320,302,Get Buyer Product Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,843,351,1,1,https://market-final-project.herokuapp.com/buyer/product/45,302,0,0
+1664818292623,307,Get Buyer Order Request,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,6151,346,1,1,https://market-final-project.herokuapp.com/buyer/order,307,0,0
+1664818292932,308,Get Buyer Order Request By ID,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,1155,352,1,1,https://market-final-project.herokuapp.com/buyer/order/10985,308,0,0
+1664818293241,352,Put Buyer Order Request,200,OK,1 User - 10 Seconds - 1 Loop 1-2,text,true,,662,398,1,1,https://market-final-project.herokuapp.com/buyer/order/10985,352,0,0
